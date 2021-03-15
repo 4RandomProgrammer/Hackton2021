@@ -10,7 +10,7 @@ double sqrtFunc(double x) {
 }
 
 //Faz o log natural
-double Log(double x) {
+double logImplementado(double x) {
   x = log(x);
 
   return x;
