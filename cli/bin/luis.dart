@@ -6,6 +6,8 @@ double sqrtFunc(double x) {
 
   if (x.isNaN) {
     print('O número informado não pode ter sua raiz calculada :(');
+  } else {
+    return x;
   }
 }
 
