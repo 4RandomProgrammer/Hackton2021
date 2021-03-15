@@ -10,17 +10,17 @@ double op_basicas(String operacao, double a, double b){
       print('$result');
     }
     break;
-    case 'Subtracao':{
+    case 'Sub':{
       result = a-b;
       print('$result');
     }
     break;
-    case 'Multiplicacao':{
+    case 'Mul':{
       result = a*b;
       print('$result');
     }
     break;
-    case 'Divisao':{
+    case 'Div':{
       result = a/b;
       print('$result');
     }
@@ -57,7 +57,7 @@ void main() {
     do{
       a = false;
       try {
-        print('- OPERAÇÕES -\nSoma, Subtracao, Multiplicacao, Divisao, Raiz, Log, Finaliza');
+        print('- OPERAÇÕES -\nSoma, Sub, Mul, Div, Raiz, Log, Finaliza');
         print('Digite uma operação: ');
         operacao = stdin.readLineSync();
         if(operacao == 'Finaliza'){
